@@ -1,10 +1,33 @@
 {
 	"name": "@codeeditorland/logicapps",
 	"displayName": "Azure Logic Apps (Consumption)",
+	"version": "0.0.1",
+	"private": false,
 	"description": "%extension.description%",
+	"keywords": [
+		"codeeditorland",
+		"land",
+		"playform"
+	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandAzureLogicapps#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandAzureLogicapps/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandAzureLogicapps.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Source 🖋️ Open 👐🏻",
+		"email": "Source/Open@Editor.Land",
+		"url": "HTTPS://Editor.Land"
+	},
+	"type": "module",
 	"main": "./out/extension",
 	"scripts": {
 		"compile": "webpack --mode development",
+		"prepublishOnly": "Build 'Source/**/*.ts'",
 		"webpack-dev": "webpack --mode development --watch",
 		"webpack-prod": "webpack --mode production"
 	},
@@ -673,6 +696,7 @@
 		"request-promise-native": "1.0.9"
 	},
 	"devDependencies": {
+		"@playform/build": "0.2.1",
 		"@types/fs-extra": "11.0.4",
 		"@types/js-yaml": "4.0.9",
 		"@types/node": "22.13.14",
@@ -682,6 +706,9 @@
 	"extensionDependencies": [
 		"ms-vscode.azure-account"
 	],
+	"publishConfig": {
+		"access": "public"
+	},
 	"icon": "resources/azLogicApps.png",
 	"galleryBanner": {
 		"color": "#3a3d41",
