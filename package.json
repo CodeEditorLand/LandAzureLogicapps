@@ -696,7 +696,7 @@
 		"request-promise-native": "1.0.9"
 	},
 	"devDependencies": {
-		"@playform/build": "0.2.1",
+		"@playform/build": "0.2.2",
 		"@types/fs-extra": "11.0.4",
 		"@types/js-yaml": "4.0.9",
 		"@types/node": "22.14.0",
