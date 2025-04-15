@@ -699,7 +699,7 @@
 		"@playform/build": "0.2.3",
 		"@types/fs-extra": "11.0.4",
 		"@types/js-yaml": "4.0.9",
-		"@types/node": "22.14.0",
+		"@types/node": "22.14.1",
 		"@types/request-promise-native": "1.0.21",
 		"ts-loader": "9.5.2"
 	},
